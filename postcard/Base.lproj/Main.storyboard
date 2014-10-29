@@ -104,6 +104,15 @@
                                     <rect key="frame" x="200" y="154" width="80" height="80"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9x-44-Gif">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="154" width="181" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="YUt-4q-gmi"/>
                                 <exclude reference="ri1-bV-CXr"/>
                                 <exclude reference="2eX-Vi-bTH"/>
+                                <exclude reference="z9x-44-Gif"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="YUt-4q-gmi"/>
                                 <include reference="ri1-bV-CXr"/>
                                 <include reference="2eX-Vi-bTH"/>
+                                <include reference="z9x-44-Gif"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextFiel" destination="CQ0-Ms-yM6" id="dsX-lK-5mg"/>
                         <outlet property="mailButton" destination="YUt-4q-gmi" id="Eps-xR-hFs"/>
                         <outlet property="messageLabel" destination="ri1-bV-CXr" id="1Uk-JQ-dTM"/>
+                        <outlet property="nameLabe" destination="z9x-44-Gif" id="fgC-UI-zq3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
